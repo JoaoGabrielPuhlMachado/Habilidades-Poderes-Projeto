@@ -1,21 +1,21 @@
 <script setup>
-import HeaderComp from "@/components/template/HeaderComp.vue";
-import FooterComp from "@/components/template/FooterComp.vue";
+import CabecalhoComp from "@/components/template/CabecalhoComp.vue";
+import RodapeComp from "@/components/template/RodapeComp.vue";
 </script>
 
 <template>
-  <HeaderComp />
+  <CabecalhoComp />
   <main>
     <RouterView />
   </main>
-  <FooterComp />
+  <RodapeComp />
 </template>
 
 <style>
 @import "@/assets/base.css";
 
 #app {
-  max-width: 1280px;
+  max-width: 100%;
   margin: 0 auto;
   height: 100vh;
   font-weight: normal;
@@ -28,6 +28,6 @@ a {
   font-weight: bolder;
 }
 main {
-  height: 80%;
+  height: 88%;
 }
 </style>
